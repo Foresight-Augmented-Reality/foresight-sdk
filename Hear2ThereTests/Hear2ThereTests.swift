@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import Hear2There
+@testable import Hear2ThereDemo
 
 final class Hear2ThereTests: XCTestCase {
 

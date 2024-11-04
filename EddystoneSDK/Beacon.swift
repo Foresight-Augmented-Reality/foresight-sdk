@@ -199,7 +199,7 @@ extension Beacon {
 extension Beacon {
     // MARK: Equatable protocol requirements
     public static func == (lhs: Beacon, rhs: Beacon) -> Bool {
-        return lhs.beaconID == rhs.beaconID
+        return lhs.beaconID == rhs.beaconID;
     }
 }
 
