@@ -113,3 +113,45 @@ var body: some View {
     }
 }
 ```
+
+
+## Bundling
+You can Bundle Hear2There SDK by running the bundle script
+
+```sh
+./bundle.sh
+```
+Or by running the commands manually
+```
+xcodebuild archive \
+    -project Hear2ThereDemo.xcodeproj \
+    -scheme Hear2ThereSDK \
+    -destination "generic/platform=iOS" \
+    -archivePath "archives/Hear2ThereSDK-iOS"
+
+xcodebuild archive \
+    -project Hear2ThereDemo.xcodeproj \
+    -scheme Hear2ThereSDK \
+    -destination "generic/platform=iOS Simulator" \
+    -archivePath "archives/Hear2ThereSDK-iOS_Simulator"
+
+xcodebuild -create-xcframework \
+-archive archives/Hear2ThereSDK-iOS.xcarchive -framework Hear2ThereSDK.framework \
+-archive archives/Hear2ThereSDK-iOS_Simulator.xcarchive -framework Hear2ThereSDK.framework \
+-output xcframeworks/Hear2ThereSDK.xcframework
+```
+
+
+## Importing Bundle into your Project
+1. Add the XCFramework to your project
+    In Xcode:
+    Go to File > Add Files to "YourProjectName..."
+    Select the Hear2ThereSDK.xcframework file and click Add.
+    Make sure "Copy items if needed" is checked if you want to keep a copy of the XCFramework within your project's folder.
+
+2. Link the framework to your Project. Be sure to Select "Embed and Sign" in your embed link settings.
+
+3. Import the library in your SwiftUI View
+```swift
+import Hear2ThereSDK
+```
