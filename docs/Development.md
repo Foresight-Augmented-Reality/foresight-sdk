@@ -9,13 +9,13 @@ If you need a development signing cert you can enroll in the Developer Program [
 ## Building 
 The Demo application can be built with Xcode by pressing the play button. Developing in the simulator *may* work but is currently untested. Deploying to your iOS device will make it easier to measure changes in RSSI as you walk around your beacons.
 
-![alt text](docs/xcode.png)
+![alt text](xcode.png)
 
 
 ## Running
 Once the Demo application is running you can view API results and RSSI strength of nearby beacons by toggling the tab menu
 
-![alt text](docs/ios.png)
+![alt text](ios.png)
 
 
 ## Code Overview
