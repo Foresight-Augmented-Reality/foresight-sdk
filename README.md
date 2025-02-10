@@ -68,6 +68,24 @@ The SDK itself provides two classes of interest:
 BeaconFinder will keep an Eddystone in it's collection until it hasn't recieved a BLE update from the device for a short timeout period (about 30 seconds)
 
 
+## Installing
+1. [Download](https://github.com/Foresight-Augmented-Reality/foresight-sdk/releases) the SDK
+1. Add the XCFramework to your project
+    In Xcode:
+    Go to File > Add Files to "YourProjectName..."
+    Select the Hear2ThereSDK.xcframework file and click Add.
+    Make sure "Copy items if needed" is checked if you want to keep a copy of the XCFramework within your project's folder.
+
+2. Link the framework to your Project. Be sure to Select "Embed and Sign" in your embed link settings.
+
+3. Add a "Bluetooth Always Usage Description" in your Property List in Build Settings. This is a required permission to scan for Bluetooth Becons.
+
+3. Import the library in your SwiftUI View
+```swift
+import Hear2ThereSDK
+```
+
+
 ## Using The Beacon Finder Class
 A Beacon Finder can be class instantiated on a SwiftUI View and will automatically start searching for nearby beacons
 
@@ -107,7 +125,7 @@ struct ContentView: View {
 }
 ```
 
-Currently we only support fetching all avaiable beacons. More API functionality will be implemented later.
+Currently we only support fetching all avaiable beacons.
 
 
 Fetching Lighthouses can be triggered when your UI code is ready to load from the remote server:
@@ -127,19 +145,4 @@ var body: some View {
         hear2ThereApi.fetchLighthouses()
     }
 }
-```
-
-
-## Importing Bundle into your Project
-1. Add the XCFramework to your project
-    In Xcode:
-    Go to File > Add Files to "YourProjectName..."
-    Select the Hear2ThereSDK.xcframework file and click Add.
-    Make sure "Copy items if needed" is checked if you want to keep a copy of the XCFramework within your project's folder.
-
-2. Link the framework to your Project. Be sure to Select "Embed and Sign" in your embed link settings.
-
-3. Import the library in your SwiftUI View
-```swift
-import Hear2ThereSDK
 ```
