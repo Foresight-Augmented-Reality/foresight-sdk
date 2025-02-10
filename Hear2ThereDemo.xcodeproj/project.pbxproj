@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD4A9C252D59BF26000B46AB /* ARMAFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4A9C0F2D59BF26000B46AB /* ARMAFilter.swift */; };
+		CD4A9C262D59BF26000B46AB /* BeaconID.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4A9C102D59BF26000B46AB /* BeaconID.swift */; };
+		CD4A9C272D59BF26000B46AB /* Hear2ThereSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = CD4A9C112D59BF26000B46AB /* Hear2ThereSDK.h */; };
+		CD4A9C282D59BF26000B46AB /* RSSIFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4A9C152D59BF26000B46AB /* RSSIFilter.swift */; };
+		CD4A9C292D59BF26000B46AB /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4A9C162D59BF26000B46AB /* Util.swift */; };
+		CD4A9C2A2D59BF26000B46AB /* Beacon.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4A9C172D59BF26000B46AB /* Beacon.swift */; };
+		CD4A9C2B2D59BF26000B46AB /* DispatchTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4A9C182D59BF26000B46AB /* DispatchTimer.swift */; };
+		CD4A9C2C2D59BF26000B46AB /* Eddystone.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4A9C192D59BF26000B46AB /* Eddystone.swift */; };
+		CD4A9C2D2D59BF26000B46AB /* GaussianFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4A9C1A2D59BF26000B46AB /* GaussianFilter.swift */; };
+		CD4A9C2E2D59BF26000B46AB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4A9C1B2D59BF26000B46AB /* Constants.swift */; };
+		CD4A9C2F2D59BF26000B46AB /* LighthouseRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4A9C1C2D59BF26000B46AB /* LighthouseRecord.swift */; };
+		CD4A9C302D59BF26000B46AB /* Scanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4A9C1D2D59BF26000B46AB /* Scanner.swift */; };
+		CD4A9C312D59BF26000B46AB /* KalmanFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4A9C1E2D59BF26000B46AB /* KalmanFilter.swift */; };
+		CD4A9C322D59BF26000B46AB /* BeaconManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4A9C1F2D59BF26000B46AB /* BeaconManager.swift */; };
+		CD4A9C332D59BF26000B46AB /* EddystoneScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = CD4A9C202D59BF26000B46AB /* EddystoneScanner.h */; };
+		CD4A9C342D59BF26000B46AB /* SafeSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4A9C212D59BF26000B46AB /* SafeSet.swift */; };
+		CD4A9C352D59BF26000B46AB /* Hear2ThereAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4A9C222D59BF26000B46AB /* Hear2ThereAPIManager.swift */; };
+		CD4A9C362D59BF26000B46AB /* Telemetry.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4A9C232D59BF26000B46AB /* Telemetry.swift */; };
+		CD4A9C372D59BF26000B46AB /* RunningAverageFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4A9C242D59BF26000B46AB /* RunningAverageFilter.swift */; };
 		CD7CF0112CC0587200107079 /* Hear2ThereApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7CF0102CC0587200107079 /* Hear2ThereApp.swift */; };
 		CD7CF0132CC0587200107079 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7CF0122CC0587200107079 /* ContentView.swift */; };
 		CD7CF0152CC0587200107079 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD7CF0142CC0587200107079 /* Assets.xcassets */; };
@@ -14,7 +33,6 @@
 		CD7CF0222CC0587200107079 /* Hear2ThereTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7CF0212CC0587200107079 /* Hear2ThereTests.swift */; };
 		CD7CF02C2CC0587200107079 /* Hear2ThereUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7CF02B2CC0587200107079 /* Hear2ThereUITests.swift */; };
 		CD7CF02E2CC0587200107079 /* Hear2ThereUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7CF02D2CC0587200107079 /* Hear2ThereUITestsLaunchTests.swift */; };
-		CD7CF0422CC0589E00107079 /* Hear2ThereSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = CD7CF0412CC0589E00107079 /* Hear2ThereSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CD7CF0452CC0589E00107079 /* Hear2ThereSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD7CF03F2CC0589E00107079 /* Hear2ThereSDK.framework */; };
 		CD7CF0462CC0589E00107079 /* Hear2ThereSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CD7CF03F2CC0589E00107079 /* Hear2ThereSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CD7CF0C42CC0595A00107079 /* BeaconManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7CF0BF2CC0595A00107079 /* BeaconManager.swift */; };
@@ -22,26 +40,6 @@
 		CD7CF0C62CC0595A00107079 /* LighthouseRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7CF0C12CC0595A00107079 /* LighthouseRecord.swift */; };
 		CD7CF0C72CC0595A00107079 /* Hear2ThereAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7CF0C22CC0595A00107079 /* Hear2ThereAPIManager.swift */; };
 		CD7CF0C82CC0595A00107079 /* EddystoneScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = CD7CF0C32CC0595A00107079 /* EddystoneScanner.h */; };
-		CD7CF0D12CC0599400107079 /* EddystoneSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = CD7CF0D02CC0599400107079 /* EddystoneSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CD7CF0D42CC0599400107079 /* EddystoneSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD7CF0CE2CC0599400107079 /* EddystoneSDK.framework */; };
-		CD7CF0D52CC0599400107079 /* EddystoneSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CD7CF0CE2CC0599400107079 /* EddystoneSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		CD7CF0EB2CC059AB00107079 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7CF0D92CC059AB00107079 /* Util.swift */; };
-		CD7CF0EC2CC059AB00107079 /* BeaconID.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7CF0DA2CC059AB00107079 /* BeaconID.swift */; };
-		CD7CF0ED2CC059AB00107079 /* DispatchTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7CF0DB2CC059AB00107079 /* DispatchTimer.swift */; };
-		CD7CF0EE2CC059AB00107079 /* SafeSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7CF0DC2CC059AB00107079 /* SafeSet.swift */; };
-		CD7CF0EF2CC059AB00107079 /* RunningAverageFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7CF0DD2CC059AB00107079 /* RunningAverageFilter.swift */; };
-		CD7CF0F02CC059AB00107079 /* Beacon.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7CF0DE2CC059AB00107079 /* Beacon.swift */; };
-		CD7CF0F12CC059AB00107079 /* RSSIFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7CF0DF2CC059AB00107079 /* RSSIFilter.swift */; };
-		CD7CF0F22CC059AB00107079 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7CF0E02CC059AB00107079 /* Constants.swift */; };
-		CD7CF0F32CC059AB00107079 /* KalmanFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7CF0E12CC059AB00107079 /* KalmanFilter.swift */; };
-		CD7CF0F42CC059AB00107079 /* Telemetry.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7CF0E22CC059AB00107079 /* Telemetry.swift */; };
-		CD7CF0F52CC059AB00107079 /* ARMAFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7CF0E32CC059AB00107079 /* ARMAFilter.swift */; };
-		CD7CF0F62CC059AB00107079 /* Eddystone.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7CF0E72CC059AB00107079 /* Eddystone.swift */; };
-		CD7CF0F72CC059AB00107079 /* EddystoneSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = CD7CF0E82CC059AB00107079 /* EddystoneSDK.h */; };
-		CD7CF0F82CC059AB00107079 /* Scanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7CF0E92CC059AB00107079 /* Scanner.swift */; };
-		CD7CF0F92CC059AB00107079 /* GaussianFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7CF0EA2CC059AB00107079 /* GaussianFilter.swift */; };
-		CD7CF0FB2CC059C300107079 /* EddystoneSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD7CF0CE2CC0599400107079 /* EddystoneSDK.framework */; };
-		CD7CF0FC2CC059C300107079 /* EddystoneSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CD7CF0CE2CC0599400107079 /* EddystoneSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,20 +64,6 @@
 			remoteGlobalIDString = CD7CF03E2CC0589E00107079;
 			remoteInfo = Hear2ThereSDK;
 		};
-		CD7CF0D22CC0599400107079 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CD7CF0052CC0587200107079 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CD7CF0CD2CC0599400107079;
-			remoteInfo = EddystoneSDK;
-		};
-		CD7CF0FD2CC059C300107079 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CD7CF0052CC0587200107079 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CD7CF0CD2CC0599400107079;
-			remoteInfo = EddystoneSDK;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -90,18 +74,6 @@
 			dstSubfolderSpec = 10;
 			files = (
 				CD7CF0462CC0589E00107079 /* Hear2ThereSDK.framework in Embed Frameworks */,
-				CD7CF0D52CC0599400107079 /* EddystoneSDK.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CD7CF0FF2CC059C300107079 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				CD7CF0FC2CC059C300107079 /* EddystoneSDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -109,6 +81,25 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CD4A9C0F2D59BF26000B46AB /* ARMAFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARMAFilter.swift; sourceTree = "<group>"; };
+		CD4A9C102D59BF26000B46AB /* BeaconID.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeaconID.swift; sourceTree = "<group>"; };
+		CD4A9C112D59BF26000B46AB /* Hear2ThereSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hear2ThereSDK.h; sourceTree = "<group>"; };
+		CD4A9C152D59BF26000B46AB /* RSSIFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSSIFilter.swift; sourceTree = "<group>"; };
+		CD4A9C162D59BF26000B46AB /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		CD4A9C172D59BF26000B46AB /* Beacon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Beacon.swift; sourceTree = "<group>"; };
+		CD4A9C182D59BF26000B46AB /* DispatchTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DispatchTimer.swift; sourceTree = "<group>"; };
+		CD4A9C192D59BF26000B46AB /* Eddystone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Eddystone.swift; sourceTree = "<group>"; };
+		CD4A9C1A2D59BF26000B46AB /* GaussianFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GaussianFilter.swift; sourceTree = "<group>"; };
+		CD4A9C1B2D59BF26000B46AB /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CD4A9C1C2D59BF26000B46AB /* LighthouseRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LighthouseRecord.swift; sourceTree = "<group>"; };
+		CD4A9C1D2D59BF26000B46AB /* Scanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scanner.swift; sourceTree = "<group>"; };
+		CD4A9C1E2D59BF26000B46AB /* KalmanFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KalmanFilter.swift; sourceTree = "<group>"; };
+		CD4A9C1F2D59BF26000B46AB /* BeaconManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeaconManager.swift; sourceTree = "<group>"; };
+		CD4A9C202D59BF26000B46AB /* EddystoneScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EddystoneScanner.h; sourceTree = "<group>"; };
+		CD4A9C212D59BF26000B46AB /* SafeSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SafeSet.swift; sourceTree = "<group>"; };
+		CD4A9C222D59BF26000B46AB /* Hear2ThereAPIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hear2ThereAPIManager.swift; sourceTree = "<group>"; };
+		CD4A9C232D59BF26000B46AB /* Telemetry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Telemetry.swift; sourceTree = "<group>"; };
+		CD4A9C242D59BF26000B46AB /* RunningAverageFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RunningAverageFilter.swift; sourceTree = "<group>"; };
 		CD7CF00D2CC0587200107079 /* Hear2ThereDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hear2ThereDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD7CF0102CC0587200107079 /* Hear2ThereApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hear2ThereApp.swift; sourceTree = "<group>"; };
 		CD7CF0122CC0587200107079 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -120,29 +111,11 @@
 		CD7CF02B2CC0587200107079 /* Hear2ThereUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hear2ThereUITests.swift; sourceTree = "<group>"; };
 		CD7CF02D2CC0587200107079 /* Hear2ThereUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hear2ThereUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		CD7CF03F2CC0589E00107079 /* Hear2ThereSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Hear2ThereSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD7CF0412CC0589E00107079 /* Hear2ThereSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Hear2ThereSDK.h; sourceTree = "<group>"; };
 		CD7CF0BF2CC0595A00107079 /* BeaconManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeaconManager.swift; sourceTree = "<group>"; };
 		CD7CF0C02CC0595A00107079 /* ButtonRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonRecord.swift; sourceTree = "<group>"; };
 		CD7CF0C12CC0595A00107079 /* LighthouseRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LighthouseRecord.swift; sourceTree = "<group>"; };
 		CD7CF0C22CC0595A00107079 /* Hear2ThereAPIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hear2ThereAPIManager.swift; sourceTree = "<group>"; };
 		CD7CF0C32CC0595A00107079 /* EddystoneScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EddystoneScanner.h; sourceTree = "<group>"; };
-		CD7CF0CE2CC0599400107079 /* EddystoneSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EddystoneSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD7CF0D02CC0599400107079 /* EddystoneSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EddystoneSDK.h; sourceTree = "<group>"; };
-		CD7CF0D92CC059AB00107079 /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
-		CD7CF0DA2CC059AB00107079 /* BeaconID.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeaconID.swift; sourceTree = "<group>"; };
-		CD7CF0DB2CC059AB00107079 /* DispatchTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DispatchTimer.swift; sourceTree = "<group>"; };
-		CD7CF0DC2CC059AB00107079 /* SafeSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SafeSet.swift; sourceTree = "<group>"; };
-		CD7CF0DD2CC059AB00107079 /* RunningAverageFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RunningAverageFilter.swift; sourceTree = "<group>"; };
-		CD7CF0DE2CC059AB00107079 /* Beacon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Beacon.swift; sourceTree = "<group>"; };
-		CD7CF0DF2CC059AB00107079 /* RSSIFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RSSIFilter.swift; sourceTree = "<group>"; };
-		CD7CF0E02CC059AB00107079 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		CD7CF0E12CC059AB00107079 /* KalmanFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KalmanFilter.swift; sourceTree = "<group>"; };
-		CD7CF0E22CC059AB00107079 /* Telemetry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Telemetry.swift; sourceTree = "<group>"; };
-		CD7CF0E32CC059AB00107079 /* ARMAFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARMAFilter.swift; sourceTree = "<group>"; };
-		CD7CF0E72CC059AB00107079 /* Eddystone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Eddystone.swift; sourceTree = "<group>"; };
-		CD7CF0E82CC059AB00107079 /* EddystoneSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EddystoneSDK.h; path = ../../../HereToThereDemo/EddystoneSDK/EddystoneSDK.h; sourceTree = "<group>"; };
-		CD7CF0E92CC059AB00107079 /* Scanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scanner.swift; sourceTree = "<group>"; };
-		CD7CF0EA2CC059AB00107079 /* GaussianFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GaussianFilter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,7 +124,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD7CF0452CC0589E00107079 /* Hear2ThereSDK.framework in Frameworks */,
-				CD7CF0D42CC0599400107079 /* EddystoneSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,20 +145,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD7CF0FB2CC059C300107079 /* EddystoneSDK.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CD7CF0CB2CC0599400107079 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CD4A9C122D59BF26000B46AB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CD4A9C132D59BF26000B46AB /* RSSIFilters */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RSSIFilters;
+			sourceTree = "<group>";
+		};
+		CD4A9C142D59BF26000B46AB /* EddystoneRFC */ = {
+			isa = PBXGroup;
+			children = (
+				CD4A9C122D59BF26000B46AB /* Models */,
+				CD4A9C132D59BF26000B46AB /* RSSIFilters */,
+			);
+			path = EddystoneRFC;
+			sourceTree = "<group>";
+		};
 		CD7CF0042CC0587200107079 = {
 			isa = PBXGroup;
 			children = (
@@ -194,7 +181,6 @@
 				CD7CF0202CC0587200107079 /* Hear2ThereTests */,
 				CD7CF02A2CC0587200107079 /* Hear2ThereUITests */,
 				CD7CF0402CC0589E00107079 /* Hear2ThereSDK */,
-				CD7CF0CF2CC0599400107079 /* EddystoneSDK */,
 				CD7CF00E2CC0587200107079 /* Products */,
 				CD7CF0FA2CC059C300107079 /* Frameworks */,
 			);
@@ -207,7 +193,6 @@
 				CD7CF01D2CC0587200107079 /* Hear2ThereDemoTests.xctest */,
 				CD7CF0272CC0587200107079 /* Hear2ThereDemoUITests.xctest */,
 				CD7CF03F2CC0589E00107079 /* Hear2ThereSDK.framework */,
-				CD7CF0CE2CC0599400107079 /* EddystoneSDK.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -252,60 +237,32 @@
 			isa = PBXGroup;
 			children = (
 				CD7CF0BF2CC0595A00107079 /* BeaconManager.swift */,
+				CD4A9C0F2D59BF26000B46AB /* ARMAFilter.swift */,
+				CD4A9C172D59BF26000B46AB /* Beacon.swift */,
+				CD4A9C102D59BF26000B46AB /* BeaconID.swift */,
+				CD4A9C1F2D59BF26000B46AB /* BeaconManager.swift */,
+				CD4A9C1B2D59BF26000B46AB /* Constants.swift */,
+				CD4A9C182D59BF26000B46AB /* DispatchTimer.swift */,
+				CD4A9C192D59BF26000B46AB /* Eddystone.swift */,
+				CD4A9C142D59BF26000B46AB /* EddystoneRFC */,
+				CD4A9C202D59BF26000B46AB /* EddystoneScanner.h */,
+				CD4A9C1A2D59BF26000B46AB /* GaussianFilter.swift */,
+				CD4A9C222D59BF26000B46AB /* Hear2ThereAPIManager.swift */,
+				CD4A9C112D59BF26000B46AB /* Hear2ThereSDK.h */,
+				CD4A9C1E2D59BF26000B46AB /* KalmanFilter.swift */,
+				CD4A9C1C2D59BF26000B46AB /* LighthouseRecord.swift */,
+				CD4A9C152D59BF26000B46AB /* RSSIFilter.swift */,
+				CD4A9C242D59BF26000B46AB /* RunningAverageFilter.swift */,
+				CD4A9C212D59BF26000B46AB /* SafeSet.swift */,
+				CD4A9C1D2D59BF26000B46AB /* Scanner.swift */,
+				CD4A9C232D59BF26000B46AB /* Telemetry.swift */,
+				CD4A9C162D59BF26000B46AB /* Util.swift */,
 				CD7CF0C02CC0595A00107079 /* ButtonRecord.swift */,
 				CD7CF0C32CC0595A00107079 /* EddystoneScanner.h */,
 				CD7CF0C22CC0595A00107079 /* Hear2ThereAPIManager.swift */,
 				CD7CF0C12CC0595A00107079 /* LighthouseRecord.swift */,
-				CD7CF0412CC0589E00107079 /* Hear2ThereSDK.h */,
 			);
 			path = Hear2ThereSDK;
-			sourceTree = "<group>";
-		};
-		CD7CF0CF2CC0599400107079 /* EddystoneSDK */ = {
-			isa = PBXGroup;
-			children = (
-				CD7CF0E32CC059AB00107079 /* ARMAFilter.swift */,
-				CD7CF0DE2CC059AB00107079 /* Beacon.swift */,
-				CD7CF0DA2CC059AB00107079 /* BeaconID.swift */,
-				CD7CF0E02CC059AB00107079 /* Constants.swift */,
-				CD7CF0DB2CC059AB00107079 /* DispatchTimer.swift */,
-				CD7CF0E72CC059AB00107079 /* Eddystone.swift */,
-				CD7CF0E62CC059AB00107079 /* EddystoneRFC */,
-				CD7CF0E82CC059AB00107079 /* EddystoneSDK.h */,
-				CD7CF0EA2CC059AB00107079 /* GaussianFilter.swift */,
-				CD7CF0E12CC059AB00107079 /* KalmanFilter.swift */,
-				CD7CF0DF2CC059AB00107079 /* RSSIFilter.swift */,
-				CD7CF0DD2CC059AB00107079 /* RunningAverageFilter.swift */,
-				CD7CF0DC2CC059AB00107079 /* SafeSet.swift */,
-				CD7CF0E92CC059AB00107079 /* Scanner.swift */,
-				CD7CF0E22CC059AB00107079 /* Telemetry.swift */,
-				CD7CF0D92CC059AB00107079 /* Util.swift */,
-				CD7CF0D02CC0599400107079 /* EddystoneSDK.h */,
-			);
-			path = EddystoneSDK;
-			sourceTree = "<group>";
-		};
-		CD7CF0E42CC059AB00107079 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		CD7CF0E52CC059AB00107079 /* RSSIFilters */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = RSSIFilters;
-			sourceTree = "<group>";
-		};
-		CD7CF0E62CC059AB00107079 /* EddystoneRFC */ = {
-			isa = PBXGroup;
-			children = (
-				CD7CF0E42CC059AB00107079 /* Models */,
-				CD7CF0E52CC059AB00107079 /* RSSIFilters */,
-			);
-			path = EddystoneRFC;
 			sourceTree = "<group>";
 		};
 		CD7CF0FA2CC059C300107079 /* Frameworks */ = {
@@ -322,17 +279,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD7CF0422CC0589E00107079 /* Hear2ThereSDK.h in Headers */,
 				CD7CF0C82CC0595A00107079 /* EddystoneScanner.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CD7CF0C92CC0599400107079 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CD7CF0D12CC0599400107079 /* EddystoneSDK.h in Headers */,
-				CD7CF0F72CC059AB00107079 /* EddystoneSDK.h in Headers */,
+				CD4A9C332D59BF26000B46AB /* EddystoneScanner.h in Headers */,
+				CD4A9C272D59BF26000B46AB /* Hear2ThereSDK.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,7 +301,6 @@
 			);
 			dependencies = (
 				CD7CF0442CC0589E00107079 /* PBXTargetDependency */,
-				CD7CF0D32CC0599400107079 /* PBXTargetDependency */,
 			);
 			name = Hear2ThereDemo;
 			productName = Hear2There;
@@ -403,34 +351,14 @@
 				CD7CF03B2CC0589E00107079 /* Sources */,
 				CD7CF03C2CC0589E00107079 /* Frameworks */,
 				CD7CF03D2CC0589E00107079 /* Resources */,
-				CD7CF0FF2CC059C300107079 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CD7CF0FE2CC059C300107079 /* PBXTargetDependency */,
 			);
 			name = Hear2ThereSDK;
 			productName = Hear2ThereSDK;
 			productReference = CD7CF03F2CC0589E00107079 /* Hear2ThereSDK.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		CD7CF0CD2CC0599400107079 /* EddystoneSDK */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CD7CF0D62CC0599400107079 /* Build configuration list for PBXNativeTarget "EddystoneSDK" */;
-			buildPhases = (
-				CD7CF0C92CC0599400107079 /* Headers */,
-				CD7CF0CA2CC0599400107079 /* Sources */,
-				CD7CF0CB2CC0599400107079 /* Frameworks */,
-				CD7CF0CC2CC0599400107079 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = EddystoneSDK;
-			productName = EddystoneSDK;
-			productReference = CD7CF0CE2CC0599400107079 /* EddystoneSDK.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -457,10 +385,6 @@
 					CD7CF03E2CC0589E00107079 = {
 						CreatedOnToolsVersion = 15.4;
 					};
-					CD7CF0CD2CC0599400107079 = {
-						CreatedOnToolsVersion = 15.4;
-						LastSwiftMigration = 1540;
-					};
 				};
 			};
 			buildConfigurationList = CD7CF0082CC0587200107079 /* Build configuration list for PBXProject "Hear2ThereDemo" */;
@@ -480,7 +404,6 @@
 				CD7CF01C2CC0587200107079 /* Hear2ThereDemoTests */,
 				CD7CF0262CC0587200107079 /* Hear2ThereDemoUITests */,
 				CD7CF03E2CC0589E00107079 /* Hear2ThereSDK */,
-				CD7CF0CD2CC0599400107079 /* EddystoneSDK */,
 			);
 		};
 /* End PBXProject section */
@@ -510,13 +433,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		CD7CF03D2CC0589E00107079 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CD7CF0CC2CC0599400107079 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -556,31 +472,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD4A9C2D2D59BF26000B46AB /* GaussianFilter.swift in Sources */,
+				CD4A9C262D59BF26000B46AB /* BeaconID.swift in Sources */,
+				CD4A9C282D59BF26000B46AB /* RSSIFilter.swift in Sources */,
 				CD7CF0C42CC0595A00107079 /* BeaconManager.swift in Sources */,
+				CD4A9C292D59BF26000B46AB /* Util.swift in Sources */,
+				CD4A9C342D59BF26000B46AB /* SafeSet.swift in Sources */,
+				CD4A9C2C2D59BF26000B46AB /* Eddystone.swift in Sources */,
+				CD4A9C322D59BF26000B46AB /* BeaconManager.swift in Sources */,
+				CD4A9C372D59BF26000B46AB /* RunningAverageFilter.swift in Sources */,
+				CD4A9C352D59BF26000B46AB /* Hear2ThereAPIManager.swift in Sources */,
 				CD7CF0C52CC0595A00107079 /* ButtonRecord.swift in Sources */,
+				CD4A9C312D59BF26000B46AB /* KalmanFilter.swift in Sources */,
+				CD4A9C2E2D59BF26000B46AB /* Constants.swift in Sources */,
+				CD4A9C2B2D59BF26000B46AB /* DispatchTimer.swift in Sources */,
+				CD4A9C362D59BF26000B46AB /* Telemetry.swift in Sources */,
+				CD4A9C2A2D59BF26000B46AB /* Beacon.swift in Sources */,
+				CD4A9C2F2D59BF26000B46AB /* LighthouseRecord.swift in Sources */,
+				CD4A9C252D59BF26000B46AB /* ARMAFilter.swift in Sources */,
 				CD7CF0C62CC0595A00107079 /* LighthouseRecord.swift in Sources */,
+				CD4A9C302D59BF26000B46AB /* Scanner.swift in Sources */,
 				CD7CF0C72CC0595A00107079 /* Hear2ThereAPIManager.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CD7CF0CA2CC0599400107079 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CD7CF0F32CC059AB00107079 /* KalmanFilter.swift in Sources */,
-				CD7CF0EC2CC059AB00107079 /* BeaconID.swift in Sources */,
-				CD7CF0F52CC059AB00107079 /* ARMAFilter.swift in Sources */,
-				CD7CF0F12CC059AB00107079 /* RSSIFilter.swift in Sources */,
-				CD7CF0F42CC059AB00107079 /* Telemetry.swift in Sources */,
-				CD7CF0ED2CC059AB00107079 /* DispatchTimer.swift in Sources */,
-				CD7CF0F82CC059AB00107079 /* Scanner.swift in Sources */,
-				CD7CF0EF2CC059AB00107079 /* RunningAverageFilter.swift in Sources */,
-				CD7CF0EB2CC059AB00107079 /* Util.swift in Sources */,
-				CD7CF0EE2CC059AB00107079 /* SafeSet.swift in Sources */,
-				CD7CF0F92CC059AB00107079 /* GaussianFilter.swift in Sources */,
-				CD7CF0F62CC059AB00107079 /* Eddystone.swift in Sources */,
-				CD7CF0F02CC059AB00107079 /* Beacon.swift in Sources */,
-				CD7CF0F22CC059AB00107079 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -601,16 +513,6 @@
 			isa = PBXTargetDependency;
 			target = CD7CF03E2CC0589E00107079 /* Hear2ThereSDK */;
 			targetProxy = CD7CF0432CC0589E00107079 /* PBXContainerItemProxy */;
-		};
-		CD7CF0D32CC0599400107079 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CD7CF0CD2CC0599400107079 /* EddystoneSDK */;
-			targetProxy = CD7CF0D22CC0599400107079 /* PBXContainerItemProxy */;
-		};
-		CD7CF0FE2CC059C300107079 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CD7CF0CD2CC0599400107079 /* EddystoneSDK */;
-			targetProxy = CD7CF0FD2CC059C300107079 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -936,79 +838,6 @@
 			};
 			name = Release;
 		};
-		CD7CF0D72CC0599400107079 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = P3D6MYUY49;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
-				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
-				PRODUCT_BUNDLE_IDENTIFIER = com.foresightar.EddystoneSDK;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_INSTALL_OBJC_HEADER = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		CD7CF0D82CC0599400107079 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = P3D6MYUY49;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
-				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
-				PRODUCT_BUNDLE_IDENTIFIER = com.foresightar.EddystoneSDK;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_INSTALL_OBJC_HEADER = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1053,15 +882,6 @@
 			buildConfigurations = (
 				CD7CF0482CC0589E00107079 /* Debug */,
 				CD7CF0492CC0589E00107079 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CD7CF0D62CC0599400107079 /* Build configuration list for PBXNativeTarget "EddystoneSDK" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CD7CF0D72CC0599400107079 /* Debug */,
-				CD7CF0D82CC0599400107079 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

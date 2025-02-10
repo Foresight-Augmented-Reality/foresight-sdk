@@ -1,18 +1,18 @@
 //
-//  Hear2ThereSDK.h
-//  Hear2ThereSDK
+//  HereToThereSDK.h
+//  HereToThereSDK
 //
-//  Created by clark rinker on 10/16/24.
+//  Created by clark rinker on 9/20/24.
 //
 
 #import <Foundation/Foundation.h>
 
-//! Project version number for Hear2ThereSDK.
+//! Project version number for HereToThereSDK.
 FOUNDATION_EXPORT double Hear2ThereSDKVersionNumber;
 
-//! Project version string for Hear2ThereSDK.
-FOUNDATION_EXPORT const unsigned char Hear2ThereSDKVersionString[];
+//! Project version string for HereToThereSDK.
+FOUNDATION_EXPORT const unsigned char HearToThereSDKVersionString[];
 
-// In this header, you should import all the public headers of your framework using statements like #import <Hear2ThereSDK/PublicHeader.h>
+// In this header, you should import all the public headers of your framework using statements like #import <HereToThereSDK/PublicHeader.h>
 
 

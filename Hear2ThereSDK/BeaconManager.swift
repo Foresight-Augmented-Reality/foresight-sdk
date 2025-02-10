@@ -8,28 +8,29 @@
 import Foundation
 import CoreLocation
 import CoreBluetooth
-import EddystoneSDK
 import Combine
 
-public class BeaconFinder: NSObject, EddystoneSDK.ScannerDelegate, ObservableObject {
-    let scanner = EddystoneSDK.Scanner();
+public class BeaconFinder: NSObject, ScannerDelegate, ObservableObject {
+   
+    
+    let scanner = Scanner();
     @Published public var beacons: [Beacon] = [] // Reactive state variable
     
-public override init() {
+    public override init() {
         super.init();
         
         scanner.delegate = self
         
         scanner.startScanning();
     }
-    public func didFindBeacon(scanner: EddystoneSDK.Scanner, beacon: Beacon) {
+    public func didFindBeacon(scanner: Scanner, beacon: Beacon) {
         DispatchQueue.main.async {
             self.beacons.append(beacon)
             self.beacons.sort(by: { $0.rssi < $1.rssi})
         }
     }
     
-    public func didLoseBeacon(scanner: EddystoneSDK.Scanner, beacon: Beacon) {
+    public func didLoseBeacon(scanner: Scanner, beacon: Beacon) {
         DispatchQueue.main.async {
             
             guard let index = self.beacons.firstIndex(of: beacon) else {
@@ -39,7 +40,7 @@ public override init() {
         }
     }
     
-    public func didUpdateBeacon(scanner: EddystoneSDK.Scanner, beacon: Beacon) {
+    public func didUpdateBeacon(scanner: Scanner, beacon: Beacon) {
         DispatchQueue.main.async {
             self.objectWillChange.send();
         guard let index = self.beacons.firstIndex(of: beacon) else {
@@ -52,8 +53,8 @@ public override init() {
         }
     }
     
-    public func didUpdateScannerState(scanner: EddystoneSDK.Scanner, state: State) {
-        //print("Update Beacon\n");XW
+    public func didUpdateScannerState(scanner: Scanner, state: State) {
+       
     }
     
     
