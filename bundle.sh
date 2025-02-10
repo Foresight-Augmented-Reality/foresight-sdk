@@ -1,11 +1,11 @@
 xcodebuild archive \
-    -project Hear2ThereDemo.xcodeproj \
+    -project Hear2There.xcodeproj \
     -scheme Hear2ThereSDK \
     -destination "generic/platform=iOS" \
     -archivePath "archives/Hear2ThereSDK-iOS"
 
 xcodebuild archive \
-    -project Hear2ThereDemo.xcodeproj \
+    -project Hear2There.xcodeproj \
     -scheme Hear2ThereSDK \
     -destination "generic/platform=iOS Simulator" \
     -archivePath "archives/Hear2ThereSDK-iOS_Simulator"

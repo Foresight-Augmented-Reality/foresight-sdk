@@ -35,13 +35,13 @@ You can Bundle Hear2There SDK by running the bundle script
 Or by running the commands manually
 ```
 xcodebuild archive \
-    -project Hear2ThereDemo.xcodeproj \
+    -project Hear2There.xcodeproj \
     -scheme Hear2ThereSDK \
     -destination "generic/platform=iOS" \
     -archivePath "archives/Hear2ThereSDK-iOS"
 
 xcodebuild archive \
-    -project Hear2ThereDemo.xcodeproj \
+    -project Hear2There.xcodeproj \
     -scheme Hear2ThereSDK \
     -destination "generic/platform=iOS Simulator" \
     -archivePath "archives/Hear2ThereSDK-iOS_Simulator"

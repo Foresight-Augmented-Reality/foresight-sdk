@@ -26,59 +26,12 @@
 		CD4A9C352D59BF26000B46AB /* Hear2ThereAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4A9C222D59BF26000B46AB /* Hear2ThereAPIManager.swift */; };
 		CD4A9C362D59BF26000B46AB /* Telemetry.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4A9C232D59BF26000B46AB /* Telemetry.swift */; };
 		CD4A9C372D59BF26000B46AB /* RunningAverageFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4A9C242D59BF26000B46AB /* RunningAverageFilter.swift */; };
-		CD7CF0112CC0587200107079 /* Hear2ThereApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7CF0102CC0587200107079 /* Hear2ThereApp.swift */; };
-		CD7CF0132CC0587200107079 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7CF0122CC0587200107079 /* ContentView.swift */; };
-		CD7CF0152CC0587200107079 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD7CF0142CC0587200107079 /* Assets.xcassets */; };
-		CD7CF0182CC0587200107079 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD7CF0172CC0587200107079 /* Preview Assets.xcassets */; };
-		CD7CF0222CC0587200107079 /* Hear2ThereTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7CF0212CC0587200107079 /* Hear2ThereTests.swift */; };
-		CD7CF02C2CC0587200107079 /* Hear2ThereUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7CF02B2CC0587200107079 /* Hear2ThereUITests.swift */; };
-		CD7CF02E2CC0587200107079 /* Hear2ThereUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7CF02D2CC0587200107079 /* Hear2ThereUITestsLaunchTests.swift */; };
-		CD7CF0452CC0589E00107079 /* Hear2ThereSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD7CF03F2CC0589E00107079 /* Hear2ThereSDK.framework */; };
-		CD7CF0462CC0589E00107079 /* Hear2ThereSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CD7CF03F2CC0589E00107079 /* Hear2ThereSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		CD7CF0C42CC0595A00107079 /* BeaconManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7CF0BF2CC0595A00107079 /* BeaconManager.swift */; };
 		CD7CF0C52CC0595A00107079 /* ButtonRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7CF0C02CC0595A00107079 /* ButtonRecord.swift */; };
 		CD7CF0C62CC0595A00107079 /* LighthouseRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7CF0C12CC0595A00107079 /* LighthouseRecord.swift */; };
 		CD7CF0C72CC0595A00107079 /* Hear2ThereAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7CF0C22CC0595A00107079 /* Hear2ThereAPIManager.swift */; };
 		CD7CF0C82CC0595A00107079 /* EddystoneScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = CD7CF0C32CC0595A00107079 /* EddystoneScanner.h */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		CD7CF01E2CC0587200107079 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CD7CF0052CC0587200107079 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CD7CF00C2CC0587200107079;
-			remoteInfo = Hear2There;
-		};
-		CD7CF0282CC0587200107079 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CD7CF0052CC0587200107079 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CD7CF00C2CC0587200107079;
-			remoteInfo = Hear2There;
-		};
-		CD7CF0432CC0589E00107079 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CD7CF0052CC0587200107079 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CD7CF03E2CC0589E00107079;
-			remoteInfo = Hear2ThereSDK;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		CD7CF04A2CC0589E00107079 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				CD7CF0462CC0589E00107079 /* Hear2ThereSDK.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		CD4A9C0F2D59BF26000B46AB /* ARMAFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARMAFilter.swift; sourceTree = "<group>"; };
@@ -100,16 +53,6 @@
 		CD4A9C222D59BF26000B46AB /* Hear2ThereAPIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hear2ThereAPIManager.swift; sourceTree = "<group>"; };
 		CD4A9C232D59BF26000B46AB /* Telemetry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Telemetry.swift; sourceTree = "<group>"; };
 		CD4A9C242D59BF26000B46AB /* RunningAverageFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RunningAverageFilter.swift; sourceTree = "<group>"; };
-		CD7CF00D2CC0587200107079 /* Hear2ThereDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hear2ThereDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD7CF0102CC0587200107079 /* Hear2ThereApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hear2ThereApp.swift; sourceTree = "<group>"; };
-		CD7CF0122CC0587200107079 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		CD7CF0142CC0587200107079 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CD7CF0172CC0587200107079 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		CD7CF01D2CC0587200107079 /* Hear2ThereDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hear2ThereDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD7CF0212CC0587200107079 /* Hear2ThereTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hear2ThereTests.swift; sourceTree = "<group>"; };
-		CD7CF0272CC0587200107079 /* Hear2ThereDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hear2ThereDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD7CF02B2CC0587200107079 /* Hear2ThereUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hear2ThereUITests.swift; sourceTree = "<group>"; };
-		CD7CF02D2CC0587200107079 /* Hear2ThereUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hear2ThereUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		CD7CF03F2CC0589E00107079 /* Hear2ThereSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Hear2ThereSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD7CF0BF2CC0595A00107079 /* BeaconManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeaconManager.swift; sourceTree = "<group>"; };
 		CD7CF0C02CC0595A00107079 /* ButtonRecord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonRecord.swift; sourceTree = "<group>"; };
@@ -119,28 +62,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CD7CF00A2CC0587200107079 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CD7CF0452CC0589E00107079 /* Hear2ThereSDK.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CD7CF01A2CC0587200107079 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CD7CF0242CC0587200107079 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		CD7CF03C2CC0589E00107079 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -177,9 +98,6 @@
 		CD7CF0042CC0587200107079 = {
 			isa = PBXGroup;
 			children = (
-				CD7CF00F2CC0587200107079 /* Hear2There */,
-				CD7CF0202CC0587200107079 /* Hear2ThereTests */,
-				CD7CF02A2CC0587200107079 /* Hear2ThereUITests */,
 				CD7CF0402CC0589E00107079 /* Hear2ThereSDK */,
 				CD7CF00E2CC0587200107079 /* Products */,
 				CD7CF0FA2CC059C300107079 /* Frameworks */,
@@ -189,48 +107,9 @@
 		CD7CF00E2CC0587200107079 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CD7CF00D2CC0587200107079 /* Hear2ThereDemo.app */,
-				CD7CF01D2CC0587200107079 /* Hear2ThereDemoTests.xctest */,
-				CD7CF0272CC0587200107079 /* Hear2ThereDemoUITests.xctest */,
 				CD7CF03F2CC0589E00107079 /* Hear2ThereSDK.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		CD7CF00F2CC0587200107079 /* Hear2There */ = {
-			isa = PBXGroup;
-			children = (
-				CD7CF0102CC0587200107079 /* Hear2ThereApp.swift */,
-				CD7CF0122CC0587200107079 /* ContentView.swift */,
-				CD7CF0142CC0587200107079 /* Assets.xcassets */,
-				CD7CF0162CC0587200107079 /* Preview Content */,
-			);
-			path = Hear2There;
-			sourceTree = "<group>";
-		};
-		CD7CF0162CC0587200107079 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				CD7CF0172CC0587200107079 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		CD7CF0202CC0587200107079 /* Hear2ThereTests */ = {
-			isa = PBXGroup;
-			children = (
-				CD7CF0212CC0587200107079 /* Hear2ThereTests.swift */,
-			);
-			path = Hear2ThereTests;
-			sourceTree = "<group>";
-		};
-		CD7CF02A2CC0587200107079 /* Hear2ThereUITests */ = {
-			isa = PBXGroup;
-			children = (
-				CD7CF02B2CC0587200107079 /* Hear2ThereUITests.swift */,
-				CD7CF02D2CC0587200107079 /* Hear2ThereUITestsLaunchTests.swift */,
-			);
-			path = Hear2ThereUITests;
 			sourceTree = "<group>";
 		};
 		CD7CF0402CC0589E00107079 /* Hear2ThereSDK */ = {
@@ -288,61 +167,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		CD7CF00C2CC0587200107079 /* Hear2ThereDemo */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CD7CF0312CC0587200107079 /* Build configuration list for PBXNativeTarget "Hear2ThereDemo" */;
-			buildPhases = (
-				CD7CF0092CC0587200107079 /* Sources */,
-				CD7CF00A2CC0587200107079 /* Frameworks */,
-				CD7CF00B2CC0587200107079 /* Resources */,
-				CD7CF04A2CC0589E00107079 /* Embed Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CD7CF0442CC0589E00107079 /* PBXTargetDependency */,
-			);
-			name = Hear2ThereDemo;
-			productName = Hear2There;
-			productReference = CD7CF00D2CC0587200107079 /* Hear2ThereDemo.app */;
-			productType = "com.apple.product-type.application";
-		};
-		CD7CF01C2CC0587200107079 /* Hear2ThereDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CD7CF0342CC0587200107079 /* Build configuration list for PBXNativeTarget "Hear2ThereDemoTests" */;
-			buildPhases = (
-				CD7CF0192CC0587200107079 /* Sources */,
-				CD7CF01A2CC0587200107079 /* Frameworks */,
-				CD7CF01B2CC0587200107079 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CD7CF01F2CC0587200107079 /* PBXTargetDependency */,
-			);
-			name = Hear2ThereDemoTests;
-			productName = Hear2ThereTests;
-			productReference = CD7CF01D2CC0587200107079 /* Hear2ThereDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		CD7CF0262CC0587200107079 /* Hear2ThereDemoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CD7CF0372CC0587200107079 /* Build configuration list for PBXNativeTarget "Hear2ThereDemoUITests" */;
-			buildPhases = (
-				CD7CF0232CC0587200107079 /* Sources */,
-				CD7CF0242CC0587200107079 /* Frameworks */,
-				CD7CF0252CC0587200107079 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CD7CF0292CC0587200107079 /* PBXTargetDependency */,
-			);
-			name = Hear2ThereDemoUITests;
-			productName = Hear2ThereUITests;
-			productReference = CD7CF0272CC0587200107079 /* Hear2ThereDemoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 		CD7CF03E2CC0589E00107079 /* Hear2ThereSDK */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD7CF0472CC0589E00107079 /* Build configuration list for PBXNativeTarget "Hear2ThereSDK" */;
@@ -371,23 +195,12 @@
 				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
-					CD7CF00C2CC0587200107079 = {
-						CreatedOnToolsVersion = 15.4;
-					};
-					CD7CF01C2CC0587200107079 = {
-						CreatedOnToolsVersion = 15.4;
-						TestTargetID = CD7CF00C2CC0587200107079;
-					};
-					CD7CF0262CC0587200107079 = {
-						CreatedOnToolsVersion = 15.4;
-						TestTargetID = CD7CF00C2CC0587200107079;
-					};
 					CD7CF03E2CC0589E00107079 = {
 						CreatedOnToolsVersion = 15.4;
 					};
 				};
 			};
-			buildConfigurationList = CD7CF0082CC0587200107079 /* Build configuration list for PBXProject "Hear2ThereDemo" */;
+			buildConfigurationList = CD7CF0082CC0587200107079 /* Build configuration list for PBXProject "Hear2There" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -400,38 +213,12 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CD7CF00C2CC0587200107079 /* Hear2ThereDemo */,
-				CD7CF01C2CC0587200107079 /* Hear2ThereDemoTests */,
-				CD7CF0262CC0587200107079 /* Hear2ThereDemoUITests */,
 				CD7CF03E2CC0589E00107079 /* Hear2ThereSDK */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CD7CF00B2CC0587200107079 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CD7CF0182CC0587200107079 /* Preview Assets.xcassets in Resources */,
-				CD7CF0152CC0587200107079 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CD7CF01B2CC0587200107079 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CD7CF0252CC0587200107079 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		CD7CF03D2CC0589E00107079 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -442,32 +229,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CD7CF0092CC0587200107079 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CD7CF0132CC0587200107079 /* ContentView.swift in Sources */,
-				CD7CF0112CC0587200107079 /* Hear2ThereApp.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CD7CF0192CC0587200107079 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CD7CF0222CC0587200107079 /* Hear2ThereTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CD7CF0232CC0587200107079 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CD7CF02E2CC0587200107079 /* Hear2ThereUITestsLaunchTests.swift in Sources */,
-				CD7CF02C2CC0587200107079 /* Hear2ThereUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		CD7CF03B2CC0589E00107079 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -497,24 +258,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		CD7CF01F2CC0587200107079 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CD7CF00C2CC0587200107079 /* Hear2ThereDemo */;
-			targetProxy = CD7CF01E2CC0587200107079 /* PBXContainerItemProxy */;
-		};
-		CD7CF0292CC0587200107079 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CD7CF00C2CC0587200107079 /* Hear2ThereDemo */;
-			targetProxy = CD7CF0282CC0587200107079 /* PBXContainerItemProxy */;
-		};
-		CD7CF0442CC0589E00107079 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = CD7CF03E2CC0589E00107079 /* Hear2ThereSDK */;
-			targetProxy = CD7CF0432CC0589E00107079 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		CD7CF02F2CC0587200107079 /* Debug */ = {
@@ -636,140 +379,6 @@
 			};
 			name = Release;
 		};
-		CD7CF0322CC0587200107079 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Hear2There/Preview Content\"";
-				DEVELOPMENT_TEAM = P3D6MYUY49;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "We use Bluetooth To Detect Beacons";
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.foresightar.Hear2ThereDemo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		CD7CF0332CC0587200107079 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Hear2There/Preview Content\"";
-				DEVELOPMENT_TEAM = P3D6MYUY49;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "We use Bluetooth To Detect Beacons";
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.foresightar.Hear2ThereDemo;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		CD7CF0352CC0587200107079 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.foresightar.Hear2ThereTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hear2ThereDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hear2ThereDemo";
-			};
-			name = Debug;
-		};
-		CD7CF0362CC0587200107079 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.foresightar.Hear2ThereTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hear2ThereDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Hear2ThereDemo";
-			};
-			name = Release;
-		};
-		CD7CF0382CC0587200107079 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.foresightar.Hear2ThereUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Hear2There;
-			};
-			name = Debug;
-		};
-		CD7CF0392CC0587200107079 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.foresightar.Hear2ThereUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Hear2There;
-			};
-			name = Release;
-		};
 		CD7CF0482CC0589E00107079 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -841,38 +450,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CD7CF0082CC0587200107079 /* Build configuration list for PBXProject "Hear2ThereDemo" */ = {
+		CD7CF0082CC0587200107079 /* Build configuration list for PBXProject "Hear2There" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CD7CF02F2CC0587200107079 /* Debug */,
 				CD7CF0302CC0587200107079 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CD7CF0312CC0587200107079 /* Build configuration list for PBXNativeTarget "Hear2ThereDemo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CD7CF0322CC0587200107079 /* Debug */,
-				CD7CF0332CC0587200107079 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CD7CF0342CC0587200107079 /* Build configuration list for PBXNativeTarget "Hear2ThereDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CD7CF0352CC0587200107079 /* Debug */,
-				CD7CF0362CC0587200107079 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CD7CF0372CC0587200107079 /* Build configuration list for PBXNativeTarget "Hear2ThereDemoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CD7CF0382CC0587200107079 /* Debug */,
-				CD7CF0392CC0587200107079 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
