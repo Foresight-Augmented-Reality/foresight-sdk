@@ -42,7 +42,9 @@ and display the new micro-location data when the next beacon is within
 range.
 We suggest a standard way of displaying the micro-location information so a user can
 easily access the information in a consistent manner across any Hear2There enabled app.
-(insert images here soon)
+
+(INSERT IMAGES HERE)
+
 Follow the SDK instructions to integrate Hear2There into your own app and use the
 Hear2There Demo app if you need further guidelines on how to complete the integration.
 ## Hear2There Beacons
