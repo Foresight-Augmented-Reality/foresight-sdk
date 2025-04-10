@@ -19,7 +19,7 @@ public class Hear2ThereAPIManager: ObservableObject {
     
     public func fetchButtons() {
         buttonsIsLoading = true;
-        guard let url = URL(string: "https://www.foresightar.app/rn_getallbuttons") else {
+        guard let url = URL(string: "https://www.foresightar.app/rn_getallbuttons.php") else {
             // Handle invalid URL
             return
         }

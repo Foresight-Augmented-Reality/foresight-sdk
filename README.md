@@ -127,10 +127,10 @@ struct ContentView: View {
 }
 ```
 
-Currently we only support fetching all avaiable beacons.
+Currently we only support fetching all avaiable beacons and buttons.
 
 
-Fetching Lighthouses can be triggered when your UI code is ready to load from the remote server:
+Fetching Lighthouses and buttons can be triggered when your UI code is ready to load from the remote server:
 
 ```swift
 var body: some View {
@@ -142,9 +142,19 @@ var body: some View {
                 Text(record.spokenDetails.unsafelyUnwrapped)
             }
         }
+        List(hear2ThereApi.buttons) { record in
+            VStack(alignment: .leading) {
+                Text(record.ButtonText.unsafelyUnwrapped)
+                    .font(.headline)
+                Text(record.ButtonData.unsafelyUnwrapped)
+            }
+        }.tabItem {
+            Label("Buttons", systemImage: "list.dash")
+        }
     }.onAppear {
         // API triggered here when our view is visible
         hear2ThereApi.fetchLighthouses()
+        hear2ThereApi.fetchButtons()
     }
 }
 ```
